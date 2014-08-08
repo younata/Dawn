@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A0B5BD46E8B406C85078B38 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F20CBF79A9A40C8B060720E /* libPods.a */; };
+		89DEEE091994769400CC0C2A /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DEEE081994769400CC0C2A /* Game.m */; };
+		89EB643319945E7E00C8247D /* Maze.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EB643219945E7E00C8247D /* Maze.m */; };
 		89F4704519944A9300A24318 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F4704419944A9300A24318 /* AppDelegate.swift */; };
 		89F4704719944A9400A24318 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 89F4704619944A9400A24318 /* art.scnassets */; };
 		89F4704919944A9400A24318 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F4704819944A9400A24318 /* GameViewController.swift */; };
-		89F4704C19944A9400A24318 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89F4704A19944A9400A24318 /* Main.storyboard */; };
 		89F4704E19944A9400A24318 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89F4704D19944A9400A24318 /* Images.xcassets */; };
 		89F4705A19944A9400A24318 /* DawnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F4705919944A9400A24318 /* DawnTests.swift */; };
 /* End PBXBuildFile section */
@@ -26,16 +28,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04E42A8119B9400983E77E7B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		5F20CBF79A9A40C8B060720E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		89DEEE071994769400CC0C2A /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		89DEEE081994769400CC0C2A /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		89EB643119945E7E00C8247D /* Maze.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Maze.h; sourceTree = "<group>"; };
+		89EB643219945E7E00C8247D /* Maze.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Maze.m; sourceTree = "<group>"; };
 		89F4703F19944A9300A24318 /* Dawn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dawn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89F4704319944A9300A24318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89F4704419944A9300A24318 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89F4704619944A9400A24318 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		89F4704819944A9400A24318 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		89F4704B19944A9400A24318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89F4704D19944A9400A24318 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		89F4705319944A9400A24318 /* DawnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DawnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89F4705819944A9400A24318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89F4705919944A9400A24318 /* DawnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DawnTests.swift; sourceTree = "<group>"; };
+		89F4706519944FBF00A24318 /* Dawn-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dawn-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A0B5BD46E8B406C85078B38 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +65,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		759FA86E730F42D68D4E0B44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F20CBF79A9A40C8B060720E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		89F4703619944A9300A24318 = {
 			isa = PBXGroup;
 			children = (
 				89F4704119944A9300A24318 /* Dawn */,
 				89F4705619944A9400A24318 /* DawnTests */,
 				89F4704019944A9300A24318 /* Products */,
+				04E42A8119B9400983E77E7B /* Pods.xcconfig */,
+				759FA86E730F42D68D4E0B44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,9 +99,13 @@
 				89F4704419944A9300A24318 /* AppDelegate.swift */,
 				89F4704619944A9400A24318 /* art.scnassets */,
 				89F4704819944A9400A24318 /* GameViewController.swift */,
-				89F4704A19944A9400A24318 /* Main.storyboard */,
+				89EB643119945E7E00C8247D /* Maze.h */,
+				89EB643219945E7E00C8247D /* Maze.m */,
+				89DEEE071994769400CC0C2A /* Game.h */,
+				89DEEE081994769400CC0C2A /* Game.m */,
 				89F4704D19944A9400A24318 /* Images.xcassets */,
 				89F4704219944A9300A24318 /* Supporting Files */,
+				89F4706519944FBF00A24318 /* Dawn-Bridging-Header.h */,
 			);
 			path = Dawn;
 			sourceTree = "<group>";
@@ -119,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89F4705D19944A9400A24318 /* Build configuration list for PBXNativeTarget "Dawn" */;
 			buildPhases = (
+				823E1ACF14D14BB2A9C13798 /* Check Pods Manifest.lock */,
 				89F4703B19944A9300A24318 /* Sources */,
 				89F4703C19944A9300A24318 /* Frameworks */,
 				89F4703D19944A9300A24318 /* Resources */,
+				B56414B8E331498AA25D7288 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,7 +219,6 @@
 			files = (
 				89F4704E19944A9400A24318 /* Images.xcassets in Resources */,
 				89F4704719944A9400A24318 /* art.scnassets in Resources */,
-				89F4704C19944A9400A24318 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,11 +231,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		823E1ACF14D14BB2A9C13798 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B56414B8E331498AA25D7288 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		89F4703B19944A9300A24318 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89DEEE091994769400CC0C2A /* Game.m in Sources */,
+				89EB643319945E7E00C8247D /* Maze.m in Sources */,
 				89F4704919944A9400A24318 /* GameViewController.swift in Sources */,
 				89F4704519944A9300A24318 /* AppDelegate.swift in Sources */,
 			);
@@ -234,17 +293,6 @@
 			targetProxy = 89F4705419944A9400A24318 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		89F4704A19944A9400A24318 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				89F4704B19944A9400A24318 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		89F4705B19944A9400A24318 /* Debug */ = {
@@ -328,23 +376,30 @@
 		};
 		89F4705E19944A9400A24318 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04E42A8119B9400983E77E7B /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Dawn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Dawn/Dawn-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		89F4705F19944A9400A24318 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04E42A8119B9400983E77E7B /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Dawn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Dawn/Dawn-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -401,6 +456,7 @@
 				89F4705F19944A9400A24318 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89F4706019944A9400A24318 /* Build configuration list for PBXNativeTarget "DawnTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +465,7 @@
 				89F4706219944A9400A24318 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
