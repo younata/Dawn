@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4A0B5BD46E8B406C85078B38 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F20CBF79A9A40C8B060720E /* libPods.a */; };
+		8905A7BF19B9463C00572E00 /* SpaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8905A7BE19B9463C00572E00 /* SpaceViewController.swift */; };
+		8905A7C119B9492D00572E00 /* SpaceObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8905A7C019B9492D00572E00 /* SpaceObject.swift */; };
+		8905A7C319B94B3D00572E00 /* Vessel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8905A7C219B94B3D00572E00 /* Vessel.swift */; };
+		8905A7C519B94C1900572E00 /* Part.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8905A7C419B94C1900572E00 /* Part.swift */; };
 		89DEEE091994769400CC0C2A /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DEEE081994769400CC0C2A /* Game.m */; };
 		89EB643319945E7E00C8247D /* Maze.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EB643219945E7E00C8247D /* Maze.m */; };
 		89F4704519944A9300A24318 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F4704419944A9300A24318 /* AppDelegate.swift */; };
@@ -30,6 +34,10 @@
 /* Begin PBXFileReference section */
 		04E42A8119B9400983E77E7B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		5F20CBF79A9A40C8B060720E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8905A7BE19B9463C00572E00 /* SpaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceViewController.swift; sourceTree = "<group>"; };
+		8905A7C019B9492D00572E00 /* SpaceObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceObject.swift; sourceTree = "<group>"; };
+		8905A7C219B94B3D00572E00 /* Vessel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vessel.swift; sourceTree = "<group>"; };
+		8905A7C419B94C1900572E00 /* Part.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Part.swift; sourceTree = "<group>"; };
 		89DEEE071994769400CC0C2A /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
 		89DEEE081994769400CC0C2A /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
 		89EB643119945E7E00C8247D /* Maze.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Maze.h; sourceTree = "<group>"; };
@@ -99,10 +107,14 @@
 				89F4704419944A9300A24318 /* AppDelegate.swift */,
 				89F4704619944A9400A24318 /* art.scnassets */,
 				89F4704819944A9400A24318 /* GameViewController.swift */,
+				8905A7BE19B9463C00572E00 /* SpaceViewController.swift */,
 				89EB643119945E7E00C8247D /* Maze.h */,
 				89EB643219945E7E00C8247D /* Maze.m */,
 				89DEEE071994769400CC0C2A /* Game.h */,
 				89DEEE081994769400CC0C2A /* Game.m */,
+				8905A7C019B9492D00572E00 /* SpaceObject.swift */,
+				8905A7C219B94B3D00572E00 /* Vessel.swift */,
+				8905A7C419B94C1900572E00 /* Part.swift */,
 				89F4704D19944A9400A24318 /* Images.xcassets */,
 				89F4704219944A9300A24318 /* Supporting Files */,
 				89F4706519944FBF00A24318 /* Dawn-Bridging-Header.h */,
@@ -269,9 +281,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8905A7BF19B9463C00572E00 /* SpaceViewController.swift in Sources */,
 				89DEEE091994769400CC0C2A /* Game.m in Sources */,
 				89EB643319945E7E00C8247D /* Maze.m in Sources */,
+				8905A7C119B9492D00572E00 /* SpaceObject.swift in Sources */,
+				8905A7C519B94C1900572E00 /* Part.swift in Sources */,
 				89F4704919944A9400A24318 /* GameViewController.swift in Sources */,
+				8905A7C319B94B3D00572E00 /* Vessel.swift in Sources */,
 				89F4704519944A9300A24318 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

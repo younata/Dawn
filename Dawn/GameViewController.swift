@@ -12,7 +12,7 @@ import SceneKit
 
 class GameViewController: UIViewController {
 
-    var game = Game()
+    let game = Game()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +23,8 @@ class GameViewController: UIViewController {
         
         // set the scene to the view
         scnView.scene = game.scene
+        scnView.pointOfView = game.playerNode
+        scnView.allowsCameraControl = true
         
         // show statistics such as fps and timing information
         scnView.showsStatistics = true
