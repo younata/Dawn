@@ -46,9 +46,9 @@ class SpaceObject {
     
     // I'll worry about orbit objects about when a secondary stationary object is created...
     
-    init(mass: Double, sceneFile: String, name: String) {
+    init(mass: Double, sceneFile: String, objectName: String, name: String) {
         let scene = SCNScene(named: sceneFile)
-        self.node = scene.rootNode
+        self.node = scene.rootNode.childNodeWithName(objectName, recursively: true)!
         self.name = name;
         self.mass = mass;
         self.onRails = false
