@@ -12,8 +12,6 @@
 		8905A7C119B9492D00572E00 /* SpaceObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8905A7C019B9492D00572E00 /* SpaceObject.swift */; };
 		8905A7C319B94B3D00572E00 /* Vessel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8905A7C219B94B3D00572E00 /* Vessel.swift */; };
 		8905A7C519B94C1900572E00 /* Part.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8905A7C419B94C1900572E00 /* Part.swift */; };
-		89DEEE091994769400CC0C2A /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DEEE081994769400CC0C2A /* Game.m */; };
-		89EB643319945E7E00C8247D /* Maze.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EB643219945E7E00C8247D /* Maze.m */; };
 		89F4704519944A9300A24318 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F4704419944A9300A24318 /* AppDelegate.swift */; };
 		89F4704719944A9400A24318 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 89F4704619944A9400A24318 /* art.scnassets */; };
 		89F4704919944A9400A24318 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F4704819944A9400A24318 /* GameViewController.swift */; };
@@ -38,10 +36,6 @@
 		8905A7C019B9492D00572E00 /* SpaceObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceObject.swift; sourceTree = "<group>"; };
 		8905A7C219B94B3D00572E00 /* Vessel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vessel.swift; sourceTree = "<group>"; };
 		8905A7C419B94C1900572E00 /* Part.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Part.swift; sourceTree = "<group>"; };
-		89DEEE071994769400CC0C2A /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
-		89DEEE081994769400CC0C2A /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
-		89EB643119945E7E00C8247D /* Maze.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Maze.h; sourceTree = "<group>"; };
-		89EB643219945E7E00C8247D /* Maze.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Maze.m; sourceTree = "<group>"; };
 		89F4703F19944A9300A24318 /* Dawn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dawn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89F4704319944A9300A24318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89F4704419944A9300A24318 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -108,10 +102,6 @@
 				89F4704619944A9400A24318 /* art.scnassets */,
 				89F4704819944A9400A24318 /* GameViewController.swift */,
 				8905A7BE19B9463C00572E00 /* SpaceViewController.swift */,
-				89EB643119945E7E00C8247D /* Maze.h */,
-				89EB643219945E7E00C8247D /* Maze.m */,
-				89DEEE071994769400CC0C2A /* Game.h */,
-				89DEEE081994769400CC0C2A /* Game.m */,
 				8905A7C019B9492D00572E00 /* SpaceObject.swift */,
 				8905A7C219B94B3D00572E00 /* Vessel.swift */,
 				8905A7C419B94C1900572E00 /* Part.swift */,
@@ -282,8 +272,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8905A7BF19B9463C00572E00 /* SpaceViewController.swift in Sources */,
-				89DEEE091994769400CC0C2A /* Game.m in Sources */,
-				89EB643319945E7E00C8247D /* Maze.m in Sources */,
 				8905A7C119B9492D00572E00 /* SpaceObject.swift in Sources */,
 				8905A7C519B94C1900572E00 /* Part.swift in Sources */,
 				89F4704919944A9400A24318 /* GameViewController.swift in Sources */,
