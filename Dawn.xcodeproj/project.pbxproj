@@ -8,12 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		4A0B5BD46E8B406C85078B38 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F20CBF79A9A40C8B060720E /* libPods.a */; };
-		8905A7BF19B9463C00572E00 /* SpaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8905A7BE19B9463C00572E00 /* SpaceViewController.swift */; };
-		8905A7C119B9492D00572E00 /* SpaceObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8905A7C019B9492D00572E00 /* SpaceObject.swift */; };
-		8905A7C319B94B3D00572E00 /* Vessel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8905A7C219B94B3D00572E00 /* Vessel.swift */; };
-		8905A7C519B94C1900572E00 /* Part.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8905A7C419B94C1900572E00 /* Part.swift */; };
+		89D672F21A637D2500F8A4B0 /* CityScape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D672F11A637D2500F8A4B0 /* CityScape.swift */; };
+		89D672F41A637D6700F8A4B0 /* Building.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D672F31A637D6700F8A4B0 /* Building.swift */; };
+		89D672F61A64700B00F8A4B0 /* Procedural.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D672F51A64700B00F8A4B0 /* Procedural.swift */; };
+		89D672F81A64706B00F8A4B0 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D672F71A64706B00F8A4B0 /* Window.swift */; };
 		89F4704519944A9300A24318 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F4704419944A9300A24318 /* AppDelegate.swift */; };
-		89F4704719944A9400A24318 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 89F4704619944A9400A24318 /* art.scnassets */; };
 		89F4704919944A9400A24318 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F4704819944A9400A24318 /* GameViewController.swift */; };
 		89F4704E19944A9400A24318 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89F4704D19944A9400A24318 /* Images.xcassets */; };
 		89F4705A19944A9400A24318 /* DawnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F4705919944A9400A24318 /* DawnTests.swift */; };
@@ -32,14 +31,13 @@
 /* Begin PBXFileReference section */
 		04E42A8119B9400983E77E7B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		5F20CBF79A9A40C8B060720E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8905A7BE19B9463C00572E00 /* SpaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceViewController.swift; sourceTree = "<group>"; };
-		8905A7C019B9492D00572E00 /* SpaceObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceObject.swift; sourceTree = "<group>"; };
-		8905A7C219B94B3D00572E00 /* Vessel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vessel.swift; sourceTree = "<group>"; };
-		8905A7C419B94C1900572E00 /* Part.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Part.swift; sourceTree = "<group>"; };
+		89D672F11A637D2500F8A4B0 /* CityScape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityScape.swift; sourceTree = "<group>"; };
+		89D672F31A637D6700F8A4B0 /* Building.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Building.swift; sourceTree = "<group>"; };
+		89D672F51A64700B00F8A4B0 /* Procedural.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Procedural.swift; sourceTree = "<group>"; };
+		89D672F71A64706B00F8A4B0 /* Window.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
 		89F4703F19944A9300A24318 /* Dawn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dawn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89F4704319944A9300A24318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89F4704419944A9300A24318 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		89F4704619944A9400A24318 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		89F4704819944A9400A24318 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		89F4704D19944A9400A24318 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		89F4705319944A9400A24318 /* DawnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DawnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,12 +97,11 @@
 			isa = PBXGroup;
 			children = (
 				89F4704419944A9300A24318 /* AppDelegate.swift */,
-				89F4704619944A9400A24318 /* art.scnassets */,
 				89F4704819944A9400A24318 /* GameViewController.swift */,
-				8905A7BE19B9463C00572E00 /* SpaceViewController.swift */,
-				8905A7C019B9492D00572E00 /* SpaceObject.swift */,
-				8905A7C219B94B3D00572E00 /* Vessel.swift */,
-				8905A7C419B94C1900572E00 /* Part.swift */,
+				89D672F51A64700B00F8A4B0 /* Procedural.swift */,
+				89D672F11A637D2500F8A4B0 /* CityScape.swift */,
+				89D672F31A637D6700F8A4B0 /* Building.swift */,
+				89D672F71A64706B00F8A4B0 /* Window.swift */,
 				89F4704D19944A9400A24318 /* Images.xcassets */,
 				89F4704219944A9300A24318 /* Supporting Files */,
 				89F4706519944FBF00A24318 /* Dawn-Bridging-Header.h */,
@@ -220,7 +217,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				89F4704E19944A9400A24318 /* Images.xcassets in Resources */,
-				89F4704719944A9400A24318 /* art.scnassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,12 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8905A7BF19B9463C00572E00 /* SpaceViewController.swift in Sources */,
-				8905A7C119B9492D00572E00 /* SpaceObject.swift in Sources */,
-				8905A7C519B94C1900572E00 /* Part.swift in Sources */,
+				89D672F21A637D2500F8A4B0 /* CityScape.swift in Sources */,
 				89F4704919944A9400A24318 /* GameViewController.swift in Sources */,
-				8905A7C319B94B3D00572E00 /* Vessel.swift in Sources */,
 				89F4704519944A9300A24318 /* AppDelegate.swift in Sources */,
+				89D672F41A637D6700F8A4B0 /* Building.swift in Sources */,
+				89D672F61A64700B00F8A4B0 /* Procedural.swift in Sources */,
+				89D672F81A64706B00F8A4B0 /* Window.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
